@@ -1,0 +1,77 @@
+/* Style for body tag */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Optional: Light background color for the page */
+  }
+  
+  /* Style for header tag */
+  header {
+    background-color: #6fa8dc; /* Light blue background */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for nav tag */
+  nav {
+    text-align: center; /* Center the buttons in the navigation bar */
+    padding: 20px 0; /* Add some vertical spacing */
+  }
+  
+  nav a {
+    display: inline-block; /* Arrange buttons horizontally */
+    background-color: rgb(2, 158, 255); /* Blue button background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border: none;
+    padding: 10px 20px; /* Add padding for button shape */
+    margin: 0 10px; /* Add spacing between buttons */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Button text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  nav a:hover {
+    background-color: rgb(1, 128, 205); /* Darker blue on hover */
+  }
+
+ 
+  main {
+    background-color: #ffffff; /* White background */
+    font-size: 18px; /* Slightly larger font */
+    padding: 20px;
+    line-height: 1.6; /* Ensure readability */
+  }
+  
+  /* Style for footer tag */
+  footer {
+    
+    background-color: #cfe2f3; /* Very light blue */
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  /* Style for li tag */
+  li {
+    display: inline-block; /* Horizontal layout */
+    width: auto;
+    margin-right: 10px; /* Add spacing between items */
+  }
+  
+  /* Style for h1 tag */
+  h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #073763; /* Dark navy blue */
+  }
+  
+  /* Style for p tag */
+  p {
+    line-height: 1.8; /* Improves readability */
+  }
+  
