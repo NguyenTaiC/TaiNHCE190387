@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styling.css" rel="stylesheet">
+    <title>Image Preview</title>
+    <style>
+        #image {
+            width: 500px;
+            height: 300px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgray;
+            background-size: cover;
+            background-position: center;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .preview {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: grab;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hover over or drag an image to display it</h1>
+
+    <div id="image">Hover over or drag an image below to display here.</div>
+
+    <br>
+
+    <div>
+        <img id="img1" class="preview" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 1" draggable="true">
+        <img id="img2" class="preview" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2" draggable="true">
+        <img id="img3" class="preview" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3" draggable="true">
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>

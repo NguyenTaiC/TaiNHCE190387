@@ -1,0 +1,12 @@
+/* css/style.css */
+#image {
+    width: 300px;
+    height: 200px;
+    background-image: url('');
+    text-align: center;
+    line-height: 200px;
+}
+.preview-img {
+    width: 100px;
+    margin: 10px;
+}
